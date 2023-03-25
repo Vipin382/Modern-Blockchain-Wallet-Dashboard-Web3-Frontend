@@ -37,7 +37,7 @@ const labels = [
 const BarChart = () => {
   const { theme } = useTheme();
   return (
-    <div className="relative w-[316px] sm:w-auto sm:h-[400px]">
+    <div className="relative ">
       <Bar
         options={{
           maintainAspectRatio: false,

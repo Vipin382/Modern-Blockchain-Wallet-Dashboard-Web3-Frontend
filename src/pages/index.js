@@ -115,7 +115,7 @@ export default function Home() {
             })}
           </Row>
           <Col
-            className="p-4 rounded-lg w-[260px] overflow-x-auto xs:w-auto"
+            className="p-4 rounded-lg overflow-x-auto xs:w-auto"
             css={{
               background: theme.colors.foreground.value,
             }}
@@ -172,7 +172,7 @@ export default function Home() {
             <BarChart />
           </Col>
           <Col
-            className="p-4 rounded-lg w-[260px] xs:w-auto relative"
+            className="p-4 rounded-lg xs:w-auto relative"
             css={{
               background: theme.colors.foreground.value,
               overflow: scroll,
