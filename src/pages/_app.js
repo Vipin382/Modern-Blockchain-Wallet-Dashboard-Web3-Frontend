@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
         <ThemeWrapper>
           <Layout>
             <NextThemesProvider
-              defaultTheme="system"
+              defaultTheme="dark"
               attribute="class"
               value={{
                 light: LightTheme.className,
